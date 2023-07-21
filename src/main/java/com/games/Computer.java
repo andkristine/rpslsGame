@@ -11,5 +11,6 @@ public class Computer {
         String computerMove = Move.values()[randomNumber].getValue();
 
         return computerMove;
+
     }
 }
