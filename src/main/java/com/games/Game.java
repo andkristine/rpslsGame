@@ -79,19 +79,19 @@ public class Game {
             } else if (computerMove.equals(Move.PAPER.getValue()) || computerMove.equals(Move.LIZARD.getValue())) {
                 result = "W";
             }
-        } else if (playerMove.equals(Move.PAPER.getValue())) { //PAPER
+        } else if (playerMove.equals(Move.PAPER.getValue())) { 
             if (computerMove.equals(Move.SCISSORS.getValue()) || computerMove.equals(Move.LIZARD.getValue())) {
                 result = "L";
             } else if (computerMove.equals(Move.ROCK.getValue()) || computerMove.equals(Move.SPOCK.getValue())) {
                 result = "W";
             }
-        } else if (playerMove.equals(Move.LIZARD.getValue())) { //LIZARD
+        } else if (playerMove.equals(Move.LIZARD.getValue())) {
             if (computerMove.equals(Move.ROCK.getValue()) || computerMove.equals(Move.SCISSORS.getValue())) {
                 result = "L";
             } else if (computerMove.equals(Move.PAPER.getValue()) || computerMove.equals(Move.SPOCK.getValue())) {
                 result = "W";
             }
-        } else if (playerMove.equals(Move.SPOCK.getValue())) { //SPOCK
+        } else if (playerMove.equals(Move.SPOCK.getValue())) {
             if (computerMove.equals(Move.PAPER.getValue()) || computerMove.equals(Move.LIZARD.getValue())) {
                 result = "L";
             } else if (computerMove.equals(Move.SCISSORS.getValue()) || computerMove.equals(Move.ROCK.getValue())) {
